@@ -2,7 +2,7 @@
 
 [image1]: https://video.udacity-data.com/topher/2018/May/5af7955a_tennis/tennis.png "Trained Agent"
 
-[image2]: score_plot.png "Score Plot"
+[image2]: score_plot_tennis.png "Score Plot"
 
 # Project 3: Collaboration and Competition - Multi Agent RL - Tennis Environment
 
@@ -36,3 +36,37 @@ both agents). Specifically,
 - This yields a single score for each episode.
 
 The environment is considered solved, when the average (over 100 episodes) of those scores is at least +0.5.
+
+### Getting Started
+
+1. Follow the instructions [here](https://github.com/udacity/deep-reinforcement-learning#dependencies) to setup the python environment. These instructions can be found in README.md at the root of the repository.
+2. Download this repository (only for Mac OSX), it has the environment included. So for Mac OSX, step 3 can be skipped.
+3. Download the Udacity provided environment from one of the links below. Select the environment corresponding to the required operating system:
+    - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip)
+    - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip)
+    - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86.zip)
+    - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip)
+4. Place the file in the repository folder (downloaded in step 2) and unzip (or decompress) the file.
+
+
+### Instructions
+
+The environment just set up has the files and tools to allow the training of the agent.
+
+Start the Jupyter Notebook server by running the commands below (in Mac OSX). A new browser tab will open with a list of the files in the current folder.
+
+```
+$ source activate drlnd
+$ jupyter notebook
+```
+
+Follow the instructions in `Tennis.ipynb` to get started with training your own agent! 
+
+The task of solving the Tennis environment was completed using Multi Agent DDPG algorithm with modifications.
+
+```
+Environment solved in 817 episodes!	Average Score: 0.50
+```
+![Score Plot][image2]
+   
+   
