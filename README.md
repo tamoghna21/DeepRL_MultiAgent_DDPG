@@ -8,7 +8,7 @@
 
 This project is part of the Udacity [Deep Reinforcement Learning Nanodegree Program](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893).
 
-The goal is to create and train an Agent to solve the [Tennis](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Learning-Environment-Examples.md#tennis) environment. This project solves the Tennis environmet in Mac OSX.
+The goal is to create and train an Agent to solve the [Tennis](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Learning-Environment-Examples.md#tennis) environment. An agent is trained to play tennis using Mullti Aget Actor Critic Algorithm [MADDPG](https://papers.nips.cc/paper/7217-multi-agent-actor-critic-for-mixed-cooperative-competitive-environments.pdf). This algorithm can be seen as an extension of the [DDPG](https://arxiv.org/abs/1509.02971) algorithm for multi Agent cooperative - competitive environment.
 
 ![Trained Agent][image1]
 
