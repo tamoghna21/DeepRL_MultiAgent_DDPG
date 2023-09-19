@@ -4,7 +4,7 @@
 
 [image2]: score_plot_tennis.png "Score Plot"
 
-# Project 3: Collaboration and Competition - Multi Agent RL - Tennis Environment
+# Collaboration and Competition - Multi Agent RL - Tennis Environment
 
 This project is part of the Udacity [Deep Reinforcement Learning Nanodegree Program](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893).
 
