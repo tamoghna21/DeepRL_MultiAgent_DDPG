@@ -69,4 +69,4 @@ Environment solved in 817 episodes!	Average Score: 0.50
 ```
 ![Score Plot][image2]
    
-   
+For more details see the [Report](https://github.com/tamoghna21/DeepRL_MultiAgent_DDPG/blob/main/Report.pdf)
